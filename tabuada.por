@@ -1,10 +1,10 @@
 programa {
   funcao inicio() {
   //Algoritmo da tabuada
-  //Declaração das variáveis
+  //DeclaraÃ§Ã£o das variÃ¡veis
   inteiro multiplicando,i, resultado
 
-  escreva("TABUADA 2°F\n\n") 
+  escreva("TABUADA 2Â°F\n\n") 
 
   escreva("Digite o multiplicando: ") 
   leia(multiplicando)
