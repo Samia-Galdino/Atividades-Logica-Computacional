@@ -1,25 +1,17 @@
 programa {
+  funcao inicio() {
+  //Algoritmo da tabuada
+  //Declaração das variáveis
+  inteiro multiplicando,i, resultado
 
-   funcao inicio()  {
-    escreva("Contando de 1 a 10.\n")
+  escreva("TABUADA 2°F\n\n") 
 
-    para(inteiro i = 1; i<=10;i++){
-      escreva(i,"\n")
-    } 
+  escreva("Digite o multiplicando: ") 
+  leia(multiplicando)
 
-    escreva("Contagem Regressiva de 10 a 1.\n")
-
-     para(inteiro i = 10; i>=1; i--){
-      escreva(i,"\n")
-
-     } 
-
-     escreva("Contando de 1 a 10.\n Incrementando em 2\n")
-
-    para(inteiro i = 1; i<=10;i+=2){
-      escreva(i,"\n")
-    } 
-
-
+  para(i = 0; i <= 10; i++){
+    resultado = multiplicando * i
+    escreva(multiplicando, " X ",i, " = ",resultado, "\n")
+  }
   }
 }
